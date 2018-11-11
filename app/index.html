@@ -16,12 +16,14 @@
     <div class="pure-u-3-8"></div>
     <div class="pure-u-3-8">
         <h1>Start singing!</h1>
-        <form class="pure-form">
+        <form action="/app/songs.html" id="form" @submit="checkForm" class="pure-form">
           <label for="password">Password</label>
           <input id="password" type="password" placeholder="Password">
+          <button class="pure-button">Enter</button>
         </form>
     </div>
   </div>
   <div class="pure-u-3-8"></div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </body>
 </html>
